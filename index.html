@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Continuing Education </title>
+<link rel="stylesheet" href="4styles.css">  
+</head>
+<style>
+    body{
+font-family:Arial, sans-serif;
+
+background-color:#f20b0b;
+
+}
+header{
+text-align:center;
+background-color:#004b87;
+color:#01ff11;
+padding:10px;
+}
+
+header img{
+width: 150px;
+}
+
+form{
+max-width:9080px;
+padding:70px;
+background-color: #f36dc898;
+margin:20 px auto;
+
+}
+
+label{
+margin-top: 10px;
+display:block;
+}
+
+footer{
+color:4169E1;
+padding: 10px;
+font-family:"Snell Roundhand",cursive;
+text-align:center;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #008000;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #006400 ;
+}
+
+input[type="radio"] {
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+</style>
+<body>
+<!-- Name: Sohan Adhikari, Student Number: 301399033 -->
+<header>
+        <div class="banner">
+<a href="https://www.centennialcollege.ca/" target="blank">
+<img src="centennial.png" alt="College Logo" class="logo" width="40%" height="85px">
+</a>
+</header>
+
+
+<section>
+<form action="#" method="post">
+        <fieldset>
+
+<h3>Information</h3>
+<label for="name">*Full Name: </label>
+<input type="text" id="name" autofocus required></input><br>
+<label for="email">*Email: </label>
+<input type="email" id="email" autofocus required></input><br>
+
+<legend>Continuing Education Course/Instructor Evaluation</legend>
+<label for="courseName">*Course Name/Code:</label>
+<input type="text" id="courseName" name="courseName" required>
+
+<label for="semester">*Semester:</label>
+<select id="semester" name="semester">
+                <option value="fall">Fall</option>
+                <option value="winter">Winter</option>
+                <option value="spring_summer">Spring/Summer</option>
+            </select>
+
+<label for="year">*Year:</label>
+<input type="number" id="year" name="year" required>
+
+<!--Sohan Adhikari (301399033) Software Engineering Technician 1st sem Assignment 4  -->
+   
+<h3>Instructor</h3>
+<label for="knowledge materials">How would you rate the course instructor's?</label>
+<label for="knowledge">1. Knowledge of subject?</label>
+<input type="radio" name="knowledge" id="Excellent" value="Excellent">Excellent</input>
+<input type="radio" name="knowledge" id="good" value="good">Good</input>
+<input type="radio" name="knowledge" id="fair" value="fair">Fair</input>
+<input type="radio" name="knowledge" id="not satisfactory" value="not satisfactory">Not Satisfactory</input>
+
+<label for="Helpfulness">2. Helpfulness?</label>
+<input type="radio" name="Helpfulness" id="Excellent" value="Excellent">Excellent</input>
+<input type="radio" name="Helpfulness" id="good" value="good">Good</input>
+<input type="radio" name="Helpfulness" id="fair" value="fair">Fair</input>
+<input type="radio" name="Helpfulness" id="not satisfactory" value="not satisfactory">Not Satisfactory</input>
+
+<label for="Courtesy and respect">3. Courtesy and respect?</label>
+<input type="radio" name="Courtesy and respect" id="Excellent" value="Excellent">Excellent</input>
+<input type="radio" name="Courtesy and respect" id="good" value="good">Good</input>
+<input type="radio" name="Courtesy and respect" id="fair" value="fair">Fair</input>
+<input type="radio" name="Courtesy and respect" id="not satisfactory" value="not satisfactory">Not Satisfactory</input>
+
+<label for="Communication">4. Communication</label>
+<input type="radio" name="Communication" id="Excellent" value="Excellent">Excellent</input>
+<input type="radio" name="Communication" id="good" value="good">Good</input>
+<input type="radio" name="Communication" id="fair" value="fair">Fair</input>
+<input type="radio" name="Communication" id="not satisfactory" value="not satisfactory">Not Satisfactory</input>
+
+<label for="overall performance">5. Overall performance?</label>
+<input type="radio" name="overall performance" id="Excellent" value="Excellent">Excellent</input>
+<input type="radio" name="overall performance" id="good" value="good">Good</input>
+<input type="radio" name="overall performance" id="fair" value="fair">Fair</input>
+<input type="radio" name="overall performance" id="not satisfactory" value="not satisfactory">Not Satisfactory</input>
+
+   <h3>Course</h3>
+<label for="course materials">6. How would you rate the course materials?</label>
+<input type="radio" name="course materials" id="Excellent" value="Excellent">Excellent</input>
+<input type="radio" name="course materials" id="good" value="good">Good</input>
+<input type="radio" name="course materials" id="fair" value="fair">Fair</input>
+<input type="radio" name="course materials" id="not satisfactory" value="not satisfactory">Not Satisfactory</input>
+
+<label for="expectations">7. How much did this course meet your expectations </label>
+<input type="radio" name="expectations" id="Excellent" value="Excellent">Excellent</input>
+<input type="radio" name="expectations" id="good" value="good">Good</input>
+<input type="radio" name="expectations" id="fair" value="fair">Fair</input>
+<input type="radio" name="expectations" id="not satisfactory" value="not satisfactory">Not Satisfactory</input>
+
+<label for="rate" >8. How would you rate this course(overall)?<label>
+<input type="radio" name="rate" id="Excellent" value="Excellent">Excellent</input>
+<input type="radio" name="rate" id="good" value="good">Good</input>
+<input type="radio" name="rate" id="fair" value="fair">Fair</input>
+<input type="radio" name="rate" id="not satisfactory" value="not satisfactory">Not Satisfactory</input>
+
+         
+<h3>General Information</h3>
+ <label for="outlineReviewed">9. Was the course outline reviewed/explained at the beginning of the course?</label>
+<select id="outlineReviewed" name="outlineReviewed">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                <option value="not_sure">Not Sure</option>
+            </select>
+
+<label for="recommend">10. Would you recommend this course to a friend with similar interests?</label>
+<select id="recommend" name="recommend">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                <option value="not_sure">Not Sure</option>
+            </select>
+
+
+<h3>Any other comments</h3>
+(Please use the back of the computer card or this paper if necessary)
+         <label for="best thing">11. What is the best thing about this course? </label>
+<textarea id="best thing" name="best thing"></textarea>
+        <label for="improve">12. How could we improve this course? </label>
+<textarea id="improve" name="improve"></textarea>
+        <label for="others">13. Other:</label>
+<textarea id="other" name="other"></textarea>
+
+
+<input type="submit" value="Submit Evaluation">
+</fieldset>
+</section>
+
+<footer>
+<p>Thank you! We pay attention to your feedback!</p>
+<p>Contact us at <a href="https://www.centennialcollege.ca/about-centennial/contact-us">info@college-website.com</a></p>
+ &copy; Sohan Adhikari (301399033) Software Engineering Technician 1st sem Assignment 4.
+  </footer>
+  </body>
+</html>
